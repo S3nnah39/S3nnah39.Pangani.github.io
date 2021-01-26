@@ -1,0 +1,43 @@
+<!--
+    Source: https://www.youtube.com/watch?v=a0q2ygAWaRg&list=RDCMUCDrfHGsm6bJI7Sli7vlcteA&index=38
+    
+
+-->
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Main Page</title>
+        <link rel="stylesheet" href="end.css" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body id="mainPgBody">
+
+        <span id="home">Home<span class="tooltiptext">double click</span></span>
+        <span id="successMessage"> Logged Out Successfully</span>
+        <img src="images/Elements.png" id="elements" alt="Elements"/>
+        <svg>
+            <mask id="maskLayer">
+                <rect id="first" width="100%" height="100%"></rect>
+                <text x="8%" y="55%" id="info">PANGANI SCH.</text>
+            </mask>
+            
+            <rect id="masked" width="100%" height="100%"></rect>
+        </svg>
+       <video src="images/BG%20VIDEO.mp4" id="bg" autoplay loop></video>
+
+        
+        
+        <script>
+            $(document).ready(function(){
+                $("body").dblclick(function(){
+                    window.location.assign("index.html");
+                })
+            })
+        </script>
+    </body>
+</html>

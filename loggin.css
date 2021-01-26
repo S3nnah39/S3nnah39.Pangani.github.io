@@ -1,0 +1,151 @@
+@font-face{
+    font-family: finalFont;
+    src: url(Lato-Regular.tff);
+}
+@font-face{
+    font-family: contentFont;
+    src: url(Slabo27px-Regular.tff);
+}
+body{
+    background-image: url(images/verify.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+h1{
+    font-size: 60px;
+    font-family: 'Syncopate', sans-serif;
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 30px;
+}
+#tick{
+    font-size:120px;
+    color:white;
+}
+
+#log1{
+    font-family: 'Syncopate', sans-serif;
+    position: relative;
+    border: 4px;
+    float: left;
+    border-radius: 15% 0 0 15%;
+    width: 350px;
+    height: 360px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+
+    background: linear-gradient(to left,#003bff,#1d2deb,#0045ff,#2a1ae2,#0045ff);
+    color: white;
+    box-shadow: 15px 5px 5px white;
+}
+
+#log1:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+#log2{
+    font-family: finalFont, sans-serif;
+    position: relative;
+    float: left;
+    border: 4px;
+    background: white;
+    border-radius: 0 15% 15% 0;
+    width: 400px;
+    height: 360px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 10px 5px 5px  white;
+}
+.logInHolder{
+    border: 1px ;
+    border-radius: 12% ;
+    width: 750px;
+    height: 360px;
+    position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    top: 80px;
+}
+.logInHolder:hover{
+    cursor: grab;
+}
+#stage{
+    font-size: 15px;
+    color: black;
+}
+#signIn{
+    background: linear-gradient(to left,#003bff,#1d2deb,#0045ff,#2a1ae2,#0045ff);
+    width: 200px;
+    height: 50px;
+    border: 1px;
+    border-radius:  5%;
+    color: white;
+    font-size: 30px;
+}
+input{
+    height: 35px;
+    width:180px;
+}
+#mainOptions{
+    float: left;
+    width: 200px;
+    
+}
+#mainOptions:after{
+    clear: both;
+    content: '';
+    display: table;
+}
+#loadOption{
+    float: left;
+}
+
+.card1{
+    font-family: 'Syncopate', sans-serif;
+    position: relative;
+    border: 4px;
+    float: left;
+    border-radius: 15% 0 0 15%;
+    width: 350px;
+    height: 360px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    top: 80px;
+    left: 300px;
+    background: linear-gradient(to left,#003bff,#1d2deb,#0045ff,#2a1ae2,#0045ff);
+    color: white;
+    box-shadow: 15px 5px 5px white;
+}
+#home{
+    background: linear-gradient(to left,#003bff,#1d2deb,#0045ff,#2a1ae2,#0045ff);
+    width: 100px;
+    height: 30px;
+    border: 1px;
+    border-radius:  5%;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top:15px;
+    right:80px;
+    text-align: center;
+    margin: 5px;
+}
+#home:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+

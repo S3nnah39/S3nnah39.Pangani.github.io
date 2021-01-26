@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>User Authentication</title>
+
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="loggin.css" type="text/css">
+      
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="finals.js"></script>
+    </head>
+    <body id="logIn_Body">
+        <h1>SIGN IN</h1>
+        <span id="home" onclick='window.location.assign("index.html")'>Home</span>
+        <div class="logInHolder">
+          <div id="log1">
+            <br>
+            <h3>Hello, ___________</h3>
+            <br>
+            <span id="tick">&#10004;</span>
+            <br>
+            <h3>Welcome</h3>
+          </div>
+          <div id="log2">
+                <div id="stage"></div>
+                <br>
+                <label for="username">Username:</label>
+                <br>
+                <input id="username" type="text" name="username" required>
+                <br>
+                <br>
+                <label for="password">Password:</label>
+                <br>
+                <input id="password" type="password" name="password" required>
+                <br>
+                <br>
+              
+                <button type="submit" id="signIn" onclick="userSignIn()">Sign In</button>
+              
+                <br>
+
+
+          </div>
+        </div>
+    </body>
+</html>

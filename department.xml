@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<departments>
+    <department>
+        <teacher>Miss Linet Odhiambo</teacher>
+        <subject>Math</subject>
+        <class> 1S</class>
+    </department>
+    <department>
+        <teacher>Mr Arnold Kumaku</teacher>
+        <subject>Math</subject>
+        <class> 2K</class>
+    </department>
+    <department>
+        <teacher>Mr Bruno Wangila</teacher>
+        <subject>Math</subject>
+        <class> 3S</class>
+    </department>
+    <department>
+        <teacher>Mrs Ella Bonge</teacher>
+        <subject>Math</subject>
+        <class> 4K</class>
+    </department>
+    <department>
+        <teacher>Miss Daisy Njugush</teacher>
+        <subject>Kiswahili</subject>
+        <class>4K</class>
+    </department>
+    <department>
+        <teacher>Mrs Martha Khalo</teacher>
+        <subject>Kiswahili</subject>
+        <class> 3S</class>
+    </department>
+    <department>
+        <teacher>Mr Jacob Jara</teacher>
+        <subject>Kiswahili</subject>
+        <class> 1S</class>
+    </department>
+    <department>
+        <teacher>Mr Simon Wachira</teacher>
+        <subject>Kiswahili</subject>
+        <class>2K</class>
+    </department>
+    <department>
+        <teacher>Miss Anne Kingori</teacher>
+        <subject>English</subject>
+        <class>4K</class>
+    </department>
+    <department>
+        <teacher>Mr Thaddeus Ngila</teacher>
+        <subject>English</subject>
+        <class> 3S</class>
+    </department>
+    <department>
+        <teacher>Mr Malik Abdi</teacher>
+        <subject>English</subject>
+        <class>1S</class>
+    </department>
+    <department>
+        <teacher>Mrs Rukia Fatima</teacher>
+        <subject>English</subject>
+        <class>2K</class>
+    </department>
+</departments>
+    
